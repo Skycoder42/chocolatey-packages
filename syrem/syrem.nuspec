@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<!-- == PACKAGE SPECIFIC SECTION == -->
+		<id>syrem</id>
+		<version>3.0.0</version>
+		<packageSourceUrl>https://github.com/Skycoder42/chocolatey-packages</packageSourceUrl>
+		<owners>Skycoder42</owners>
+		<!-- ============================== -->
+
+		<!-- == SOFTWARE SPECIFIC SECTION == -->
+		<title>Syrem</title>
+		<authors>Skycoder42</authors>
+		<projectUrl>https://github.com/Skycoder42/Syrem</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/Skycoder42/Syrem/master/icon/pngs/syrem/syrem_512.png</iconUrl>
+		<copyright>2018 Syrem Skycoder42</copyright>
+		<licenseUrl>https://github.com/Skycoder42/Syrem/blob/master/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<projectSourceUrl>https://github.com/Skycoder42/Syrem</projectSourceUrl>
+		<!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+		<bugTrackerUrl>https://github.com/Skycoder42/Syrem/issues</bugTrackerUrl>
+		<tags>syrem remind-me reminders synchronization tasks</tags>
+		<summary>A simple reminder application for desktop and mobile, with synchronized reminders</summary>
+		<description>
+			With this app you can create Reminders. You can use realistic expression like "in 3 days at 14 o'clock" or "every Tuesday" to set when you want to be reminded.
+		
+			Additionally, the app can synchronize your reminders with other devices - completly End-to-End encrypted. Currently Linux, Windows, MacOs and Android are supported as platform. Downloads can be found on the homepage https://github.com/Skycoder42/Syrem.
+		</description>
+		<releaseNotes>https://github.com/Skycoder42/Syrem/releases</releaseNotes>
+		<!-- =============================== -->
+
+		<!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+		<dependencies>
+			<dependency id="chocolatey-core.extension" version="1.1.0" />
+			<dependency id="vcredist140" version="14.12"/>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
