@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<!-- == PACKAGE SPECIFIC SECTION == -->
+		<id>qpmx</id>
+		<version>1.5.0</version>
+		<packageSourceUrl>https://github.com/Skycoder42/chocolatey-packages</packageSourceUrl>
+		<owners>Skycoder42</owners>
+		<!-- ============================== -->
+
+		<!-- == SOFTWARE SPECIFIC SECTION == -->
+		<title>qpmx</title>
+		<authors>Skycoder42</authors>
+		<projectUrl>https://github.com/Skycoder42/qpmx</projectUrl>
+		<copyright>2018 qpmx Skycoder42</copyright>
+		<licenseUrl>https://github.com/Skycoder42/qpmx/blob/master/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+		<tags>qpmx qpm qt packagemanager</tags>
+		<summary>Advanced Qt package manager</summary>
+		<description>
+			A frontend for qpm, to provide source and build caching.
+			qpmx is designed as a package manager tool without any backend. It is an advanced tool with support for qpm and git package repositories, and provides a bunch of features to make the usage as easy as possible.
+			For more details on it's features, check the Project website. But one of it's greatest advantages is the support for caching sources and builds, to speed up development.
+		</description>
+		<releaseNotes>https://github.com/Skycoder42/qpmx/releases</releaseNotes>
+		<!-- =============================== -->			
+
+		<dependencies>
+			<dependency id="vcredist140" version="14.12"/>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
