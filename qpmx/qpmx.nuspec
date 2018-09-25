@@ -4,7 +4,7 @@
 	<metadata>
 		<!-- == PACKAGE SPECIFIC SECTION == -->
 		<id>qpmx</id>
-		<version>1.5.0</version>
+		<version>1.6.0</version>
 		<packageSourceUrl>https://github.com/Skycoder42/chocolatey-packages</packageSourceUrl>
 		<owners>Skycoder42</owners>
 		<!-- ============================== -->

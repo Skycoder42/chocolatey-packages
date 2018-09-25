@@ -5,8 +5,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  url64bit      = "https://github.com/Skycoder42/qpmx/releases/download/${env:ChocolateyPackageVersion}/qpmx_win_deployed.zip"
-  checksum64    = '5d54939bdd084591d6a3f75ea169e1d5ee3b943a9c7e54508372fac3e1d0d5f0'
+  url64bit      = "https://github.com/Skycoder42/qpmx/releases/download/${env:ChocolateyPackageVersion}/qpmx-${env:ChocolateyPackageVersion}_msvc2017_64.zip"
+  checksum64    = '61c30d35a727099d2c66ee43fcf949acff96ff6741f46caf23447436c09ba7b8'
   checksumType64= 'sha256'
 }
 
